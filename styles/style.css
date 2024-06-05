@@ -73,12 +73,38 @@ footer{
     bottom:-800px;
 }
 
+hr {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 3px;
+    background: #000000;
+    margin-bottom: 50px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact{
+    font-weight: 900;
+    font-size: 40px;
+}
+.adresse{
+    font-size: x-large;
+}
+h1{
+    padding-top: 7%;
+}
 
+.horaire{
+    font-weight: 900;
+}
+
+iframe{
+    padding-bottom: 3%;
+}
 @media  screen and (max-width:600px) {
     .display-5{
         font-size: 50px;
         font-weight: bolder;
     }
-    
-
 }
