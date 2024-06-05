@@ -1,3 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+.italiana-regular {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body{
+    font-family: "Italiana";
+}
+
+
 nav{
-    background-color: red;
+    background-color: #E1DDD2;
+    font-family: "Italiana";
+    font-size: 150%;
+}
+
+.nav-link {
+    color: #4A473E;
+}
+
+.logo{
+    width: 20%;
+    height: auto;
+}
+
+.active {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.btn {
+    color: black;
+    font-weight: 800;
+}
+.jumbotron {
+    background-image: url("../Img/Jumbotron.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: larger;
+    color: #4B4737;
+}
+
+.display-5 {
+    font-size: 150px;
+} 
+
+.subtitle {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.card{
+    width: 50%;
+}
+
+.img-left{
+    height: 50%;
+    width: auto;
+}
+
+.img-right{
+ height: 10%;
+ width: auto;
+}
+
+footer{
+    background-color:#E1DDD2 ;
+    position: absolute;
+    bottom:-800px;
 }
