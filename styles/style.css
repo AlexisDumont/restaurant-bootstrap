@@ -105,13 +105,16 @@ iframe{
 
 .formu{
     padding-top: 3%;
+    margin-right: 0 !important;
+}
+
+.form-label{
+    border-radius: 5%;
 }
 @media  screen and (max-width:600px) {
     .display-5{
         font-size: 50px;
         font-weight: bolder;
     }
-    .formu {
-        margin-right: -100px;
-    }
+
 }
